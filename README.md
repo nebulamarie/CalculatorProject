@@ -11,15 +11,10 @@ This is my calculator I'm building along with SEV9
      - Multiply
      - Divide
      - Clear
-    
+
 
 # PMVP
-*Post Minimum Viable Product
-    -Whatever You Want
-        - but maybe
-            - Modes
-            - Neumorphism
-            - Animate
+*Post Minimum Viable Product*
 
 [Advanced Examples] ()
 
