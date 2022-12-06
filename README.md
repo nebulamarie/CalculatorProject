@@ -1,31 +1,6 @@
 # CalculatorProject
 This is my calculator I'm building along with SEV9
 
-#MVP
-
-h1-h6
-# h1
-## h2
-### h3
-#### h4
-##### h5
-###### h6
-
-**this is bold text**
-*this is Italic Text*
->This is bolck quote
-- Item 1
-Item 2
-
-1. item
-2. item
-
-`const dog = 'jake'`
-
-[This is is a link] (https://www.google.com)
-
-
-
 # MVP
 *Minimum Viable Products*
 
