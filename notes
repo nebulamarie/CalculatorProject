@@ -1,0 +1,63 @@
+
+// <!DOCTYPE html>
+// <html>
+//   <head>
+//     <title>Example Site</title>
+//     <link rel="stylesheet" href="style.css">
+//     <script defer src='script.js'></script>
+//   </head>
+//     <body>
+//     <h1 id="heading1">Example Site</h1>
+//     <div id="inputPanel">
+//       <h1 id="inputPanelText">Input Screen</h1>
+//     </div>
+//     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, magnam dolore! Explicabo unde exercitationem eum nihil adipisci. Magnam, aperiam. Inventore corrupti est excepturi provident voluptatem rerum impedit voluptate ipsa necessitatibus!</p>
+//     <button id="addButton">Add 1</button>
+//     <button id="clearButton">Clear</button>
+//     </body>
+// </html>
+
+
+
+// body {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+//   h1 {
+//     color: red;
+//     text-decoration: double;
+//   }
+//   p {
+//     font-size: 16px;
+//     font-weight: 600;
+//   }
+//   #mainButton {
+//     width: 100px;
+//     height: 50px;
+//     background-color: cadetblue;
+//     font-weight: 600;
+//   }
+//   #inputPanel {
+//     border: 0.05rem solid;
+//     padding: 0.5rem 4rem;
+//   }
+//   /* Make input blue */#inputPanelText {
+//     color: blue;
+//   }
+
+
+
+//JS
+// Capture the clear button to a variableconst clearButton = document.querySelector('#clearButton');
+// Capture the add button to a variableconst addButton = document.querySelector('#addButton');
+// Select for #inputPanelText let inputScreen = document.querySelector('#inputPanelText')
+// Store counter in variable "as State"let counter = 0// Function that clears the inputScreenTextfunction clearInputText() {
+  // Assigns value of 0 to counter 'state'  counter = 0  // Change innerText to represent the state of our counter  inputScreen.innerText = counter}
+// Function that increments the counter within the inputScreenfunction incrementCounter() {
+  // Does the input currently say 'Input Screen'  if (inputScreen.innerText == 'Input Screen'){
+    // If so Clear the screen    clearInputText()
+  }
+  // Increment our counter  counter = counter + 1  // Change innerText to represent the state of our counter  inputScreen.innerText = counter}
+// Event Listeners// Capture whenever the clear button is clickedclearButton.addEventListener('click', clearInputText)
+// Capture whenever the 'Add 1' button is clickedaddButton.addEventListener('click', incrementCounter)
